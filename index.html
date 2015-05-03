@@ -1,0 +1,1643 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/default.css" />
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mixitup.js"> </script>
+		<script type="text/javascript" src="js/script.js"></script>
+		
+		<title>I'm So Fancy</title>
+	</head>
+
+	<body>
+
+		<div id="bg"></div>
+
+		<div id="container"> 
+
+			<div id="update"></div>
+
+				<!-- header -->
+			<div id="header">
+				<img id="title" src="images/title.png">
+
+				<!-- sort button -->
+				<ul id="sort-nav">
+					<li><img id="sort-button" src="images/sort-button.png">
+						<ul id="options">
+							<li id=" alphabetical" class="primary">Alphabetical
+								<ul>
+									<button id="a2z">A to Z</button>
+									<button id="z2a">Z to A</button>
+								</ul>
+							</li>
+							<li id="parts-speech" class="primary">Parts of Speech
+								<ul>
+									<button class="filter" data-filter=".category-1" id="nouns">Nouns</button>
+									<button class="filter" data-filter=".category-2" id="verbs">Verbs </button>
+									<button class="filter" data-filter=".category-3" id="adjectives">Adjectives</button>
+								</ul>
+							</li>
+							<li id="word-length"class="primary">Word Length
+								<ul>
+									<button id="short-long" class="sort" data-sort="myorder:asc" class="secondary">Shortest to Longest</button>
+									<button id="long-short" class="sort" data-sort="myorder:desc" class="secondary">Longest to Shortest</button>
+								</ul>
+							</li>
+							<a href="index.html" id="refresh"><li class="primary">Refresh</li></a>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		<div id="intro-paragraphs">
+
+		<!-- intro paragraph 1 -->
+			<p id="intro1">
+				Do you wish you had a more <span class="gold">aureate</span> and <span class="gold">magniloquent</span> vocabulary?<br />
+				Do you want to impress <span class="gold">larrikins</span>, <span class="gold">parvenus</span>, and <span class="gold">sybarites</span> at your next <span class="gold">klatsch</span>?<br />
+				Do you often suffer from <span class="gold">lethologica</span> or <span class="gold">verbigeration</span>?<br />
+				Are you just looking for <span class="gold">pabulum</span> to escape intellectual <span class="gold">ennui</span>?
+			</p>
+
+		<!-- intro paragraph divider -->
+			<img id="divider" src="images/divider.png">
+
+		<!-- intro paragraph 2 -->
+			<p id="intro2">
+				If you answered <span class="uppercase">yes</span> to any of these questions, then you have come to the right<br />place! Use the words presented in this dictionary to impress your friends, family,<br />and colleagues. Get ready to hear everyone tell you <span class="uppercase">you’re so fancy!</span>
+			</p>
+
+		</div>
+
+		<!-- scroll to top button -->
+			<a href="index.html"><img id="scroll2top" src="images/scroll2top.jpg"></a>
+
+		<!-- x button -->
+			<img id="top-right" src="images/top-right.jpg">
+
+
+<!-- ************* Word Definitions ************** -->
+		
+		<!-- Tendentious -->
+		<div id="tendentious-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/tendentious.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ ten-<b>den</b>-sh<i>uh</i> s /</li>
+				<li id="tendentious-wrap" class="sound"><img id="tendentious-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Having or showing a definite tendency, bias, or purpose</p>
+			<p class="quote">“The educator of a child must get to know his tendentious apperception and remove it.”<br />–Alfred Adler</p>
+		</div>
+
+		<!-- Aureate -->
+		<div id="aureate-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/aureate.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>awr</b>-ee-eyt /</li>
+				<li id="aureate-wrap" class="sound"><img id="aureate-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Characterized by an ornate style of writing or speaking</p>
+			<p class="quote">“My English professor is so aureate, I can’t understand a word he says.”</p>
+		</div>
+
+		<!-- Encomium -->
+		<div id="encomium-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/encomium.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ en-<b>koh</b>-mee-<i>uh</i> m /</li>
+				<li id="encomium-wrap" class="sound"><img id="encomium-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A formal expression of high praise; eulogy</p>
+			<p class="quote">“The emcee gave an arousing encomium for Katherine before she took the stage to accept her award.”</p>
+		</div>
+
+		<!-- Haberdasher -->
+		<div id="haberdasher-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/haberdasher.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>hab</b>-er-dash-er /</li>
+				<li id="haberdasher-wrap" class="sound"><img id="haberdasher-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A retail dealer in men's furnishings, as shirts, ties, gloves, socks, and hats</p>
+			<p class="quote">“His neighbor owns a splendid haberdasher and has promised to give him discounts.”</p>
+		</div>
+
+		<!-- Aubade -->
+		<div id="aubade-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/aubade.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ oh-<b>bahd</b> /</li>
+				<li id="aubade-wrap" class="sound"><img id="aubade-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A piece sung or played outdoors at dawn, usually as a compliment to someone</p>
+			<p class="quote">“Romeo’s aubade at my windowsill last night was a romantic end to my evening.”</p>
+		</div>
+
+		<!-- Scintillant -->
+		<div id="scintillant-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/scintillant.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>sin</b>-tl-<i>uh</i> nt /</li>
+				<li id="scintillant-wrap" class="sound"><img id="scintillant-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Sparkling</p>
+			<p class="quote">“Butler, may I have another glass of this scintillant champagne?”</p>
+		</div>
+
+		<!-- Schadenfreude -->
+		<div id="schadenfreude-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/schadenfreude.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>shahd</b>-n-froi-d<i>uh</i> /</li>
+				<li id="schadenfreude-wrap" class="sound"><img id="schadenfreude-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Satisfaction or pleasure felt at someone else's misfortune</p>
+			<p class="quote">“I felt a strange sense of schadenfreude as I watched Henry slip on the thick patch of ice and land flat on his behind.”</p>
+		</div>
+
+		<!-- Soubrette -->
+		<div id="soubrette-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/soubrette.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ soo-<b>bret</b> /</li>
+				<li id="soubrette-wrap" class="sound"><img id="soubrette-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A maidservant in a play, opera, or the like, especially one displaying coquetry, pertness, and a tendency to engage in intrigue; any lively or pert young woman</p>
+			<p class="quote">“Why must I always play the role of the soubrette? My acting is quite supreme enough for the lead role.”</p>
+		</div>
+
+		<!-- Autochthonous -->
+		<div id="autochthonous-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/autochthonous.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ aw-<b>tok</b>-th<i>uh</i>-n<i>uh</i> s /</li>
+				<li id="autochthonous-wrap" class="sound"><img id="autochthonous-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Aboriginal; indigenous</p>
+			<p class="quote">“This fern is autochthonous to the rainforest region of Madagascar.”</p>
+		</div>
+
+		<!-- Cymotrichous -->
+		<div id="cymotrichous-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/cymotrichous.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ sahy-<b>mo</b>-tr<i>uh</i>-k<i>uh</i> s /</li>
+				<li id="cymotrichous-wrap" class="sound"><img id="cymotrichous-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Having wavy hair</p>
+			<p class="quote">“This cymotrichous maiden is the fairest of them all.”</p>
+		</div>
+
+		<!-- Lethologica -->
+		<div id="lethologica-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/lethologica.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ leth-<b>o</b>-loj-ik-a /</li>
+				<li id="lethologica-wrap" class="sound"><img id="lethologica-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">The inability to remember a word or put your finger on the right word</p>
+			<p class="quote">“I seem to be experiencing lethologica… I just cannot conjure the right word.”</p>
+		</div>
+
+		<!-- Chimerical -->
+		<div id="chimerical-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/chimerical.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ ki-<b>mer</b>-i-k<i>uh</i> l /</li>
+				<li id="chimerical-wrap" class="sound"><img id="chimerical-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Unreal; imaginary; visionary; wildly fanciful; highly unrealistic</p>
+			<p class="quote">“The chimerical pursuit of perfection is always linked to some important deficiency, frequently the inability to love.”<br />-Bernard Grasset</p>
+		</div>
+
+		<!-- Punctilious -->
+		<div id="punctilious-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/punctilious.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ puhgnk-<b>til</b>-ee-<i>uh</i> s /</li>
+				<li id="punctilious-wrap" class="sound"><img id="punctilious-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Strict or exact in the observance of the formalities or amenities of conduct or actions</p>
+			<p class="quote">“If the quickness of the mind and the fluency of the tongue are too punctilious and sharp, moderate them in your activity and rest.”<br />–Xun Zi</p>
+		</div>
+
+		<!-- Pulichritudinous -->
+		<div id="pulchritudinous-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/pulchritudinous.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ puhl-kri-<b>tood</b>-n-<i>uh</i> s /</li>
+				<li id="pulchritudinous-wrap" class="sound"><img id="pulchritudinous-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Physically beautiful; comely</p>
+			<p class="quote">“My darling, you look positively pulchritudinous this evening."</p>
+		</div>
+
+		<!-- Loquacious -->
+		<div id="loquacious-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/loquacious.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ loh-<b>kwey</b>-sh<i>uh</i> s /</li>
+				<li id="loquacious-wrap" class="sound"><img id="loquacious-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Talking or tending to talk much or freely; talkative; chattering; babbling; garrulous</p>
+			<p class="quote">“He who seldom speaks, and with one calm well-timed word can strike dumb the loquacious, is a genius or a hero.”<br />–Johann Kaspar Lavater</p>
+		</div>
+
+		<!-- Winnow -->
+		<div id="winnow-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/winnow.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">verb</li>
+				<li>/ <b>win</b>-oh /</li>
+				<li id="winnow-wrap" class="sound"><img id="winnow-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">To separate or distinguish (valuable from worthless parts); to subject to some process of separating or distinguishing; analyze critically; sift</p>
+			<p class="quote">“Skeptical scrutiny is the means, in both science and religion, by which deep insights can be winnowed from deep nonsense.”<br />–Carl Sagan</p>
+		</div>
+
+		<!-- Succorace -->
+		<div id="succorance-def" class="pop-up">
+			<!-- flourishes in the corners and "x" to close the pop-up box -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/succorance.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>suhk</b>-er-<i>uh</i> ns /</li>
+				<li id="succorance-wrap" class="sound"><img id="succorance-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">The act of seeking out affectionate care and social support</p>
+			<p class="quote">“It is only natural to yearn for succorance upon the death of a loved one.”</p>
+		</div>
+
+		<!-- Tenebrific -->
+		<div id="tenebrific-def" class="pop-up">
+			<!-- flourishes in the corners and "x" to close the pop-up box -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/tenebrific.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ ten-<i>uh</i>-<b>brif</b>-ik /</li>
+				<li id="tenebrific-wrap" class="sound"><img id="tenebrific-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Producing darkness</p>
+			<p class="quote">“She swiftly blew out the candles, a tenebrific gesture that left the cave pitch black.”</p>
+		</div>
+
+		<!-- Epistolize -->
+		<div id="epistolize-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/epistolize.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">verb</li>
+				<li>/ ih-<b>pis</b>-tl-ahyz /</li>
+				<li id="epistolize-wrap" class="sound"><img id="epistolize-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">To write a letter</p>
+			<p class="quote">“To epistolize to my grandmother is one of my most beloved past-times.”</p>
+		</div>
+
+		<!-- Commensal -->
+		<div id="commensal-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/commensal.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ k<i>uh</i>-<b>men</b>-s<i>uh</i> l /</li>
+				<li id="commensal-wrap" class="sound"><img id="commensal-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Eating together at the same table</p>
+			<p class="quote">“The family held a commensal suppertime tradition that was never to be broken.”</p>
+		</div>
+
+		<!-- Sternutation -->
+		<div id="sternutation-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/sternutation.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ stur-ny<i>uh</i>-<b>tey</b>-sh<i>uh</i> n /</li>
+				<li id="sternutation-wrap" class="sound"><img id="sternutation-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">The act of sneezing</p>
+			<p class="quote">“Please, do cover your mouth upon sternutation as to not spread germs.”</p>
+		</div>
+
+		<!-- Skookum -->
+		<div id="skookum-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/skookum.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>skoo</b>-k<i>uh</i> m /</li>
+				<li id="skookum-wrap" class="sound"><img id="skookum-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Large; powerful; impressive; excellent; first-rate</p>
+			<p class="quote">“Well Lionel, that is a quite a skookum vehicle you have there. Must have been expensive."</p>
+		</div>
+
+		<!-- Pigsney -->
+		<div id="pigsney-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/pigsney.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>pigz</b>-nee /</li>
+				<li id="pigsney-wrap" class="sound"><img id="pigsney-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A darling</p>
+			<p class="quote">“Would you like to meet my daughter? She’s a pigsney."</p>
+		</div>
+
+		<!-- Dowie -->
+		<div id="dowie-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/dowie.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>doh</b>-ee /</li>
+				<li id="dowie-wrap" class="sound"><img id="dowie-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Dull; melancholy; dismal</p>
+			<p class="quote">“Dowie rain pelted the window as he lamented the previous night’s events."</p>
+		</div>
+
+		<!-- Stour -->
+		<div id="stour-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/stour.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ st<i>oo</i> r /</li>
+				<li id="stour-wrap" class="sound"><img id="stour-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Tumult; confusion; a storm</p>
+			<p class="quote">“Do not cause a stour! I will explain the answer to you."</p>
+		</div>
+
+		<!-- Sodality -->
+		<div id="sodality-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/sodality.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ soh-<b>dal</b>-i-tee /</li>
+				<li id="sodality-wrap" class="sound"><img id="sodality-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Fellowship; comradeship; an association or society</p>
+			<p class="quote">“Your mother is attending her knitting sodality tonight."</p>
+		</div>
+
+		<!-- Verbigeration -->
+		<div id="verbigeration-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/verbigeration.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ ver-bij-<i>uh</i>-<b>rey</b>-sh<i>uh</i> n /</li>
+				<li id="verbigeration-wrap" class="sound"><img id="verbigeration-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">The constant or obsessive repetition of meaningless words or phrases</p>
+			<p class="quote">“Francis was committed to a psychiatric hospital after the accident, due to his constant verbigeration of the word ‘four.'"</p>
+		</div>
+
+		<!-- Thalassic -->
+		<div id="thalassic-def" class="pop-up">
+		<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/thalassic.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ th<i>uh</i>-<b>las</b>-ik /</li>
+				<li id="thalassic-wrap" class="sound"><img id="thalassic-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Of or relating to seas and oceans</p>
+			<p class="quote">“Anemones, orcas, and pufferfish are thalassic creatures."</p>
+		</div>
+
+		<!-- Subfuscous -->
+		<div id="subfuscous-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/subfuscous.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ suhb-<b>fuhs</b>-k<i>uh</i> s /</li>
+				<li id="subfuscous-wrap" class="sound"><img id="subfuscous-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Slightly dark, dusky, or somber</p>
+			<p class="quote">"The film was so subfuscous that the audience was visibly upset at its conclusion.”</p>
+		</div>
+
+		<!-- Larrikin -->
+		<div id="larrikin-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/larrikin.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>lar</b>-i-kin /</li>
+				<li id="larrikin-wrap" class="sound"><img id="larrikin-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A street rowdy; hoodlum; disorderly; rowdy</p>
+			<p class="quote">"You are forbidden to see that larrikin! He is nothing but trouble.”</p>
+		</div>
+
+		<!-- Frenetic -->
+		<div id="frenetic-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/frenetic.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ fr<i>uh</i>-<b>net</b>-ik /</li>
+				<li id="frenetic-wrap" class="sound"><img id="frenetic-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Frantic; frenzied</p>
+			<p class="quote">"I love my work with a frenetic and perverse love, as an ascetic loves the hair shirt which scratches his belly.”<br />–Gustave Flaubert</p>
+		</div>
+
+		<!-- Oeuvre -->
+		<div id="oeuvre-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/oeuvre.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>œ</b>-vr<i>uh</i> /</li>
+				<li id="oeuvre-wrap" class="sound"><img id="oeuvre-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">The works of a writer, painter, or the like, taken as a whole</p>
+			<p class="quote">"I very much dislike this painting, but I do enjoy the artist’s oeuvre.”</p>
+		</div>
+
+		<!-- Crapehanger -->
+		<div id="crapehanger-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/crapehanger.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>kreyp</b>-hang-er /</li>
+				<li id="crapehanger-wrap" class="sound"><img id="crapehanger-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A person who sees the gloomy side of things; pessimist</p>
+			<p class="quote">"Helen has been such a crapehanger since her boyfriend broke up with her.”</p>
+		</div>
+
+		<!-- Horology -->
+		<div id="horology-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/horology.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ hoh-<b>rol</b>-<i>uh</i>-jee /</li>
+				<li id="horology-wrap" class="sound"><img id="horology-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">The art or science of making timepieces or of measuring time</p>
+			<p class="quote">"The famous watchmaker feverishly studied horology before opening his own shop.”</p>
+		</div>
+
+		<!-- Pusillanimous -->
+		<div id="pusillanimous-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/pusillanimous.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ pyoo-s<i>uh</i>-<b>lan</b>-<i>uh</i>-m<i>uh</i> s /</li>
+				<li id="pusillanimous-wrap" class="sound"><img id="pusillanimous-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Lacking courage or resolution; cowardly; faint-hearted; timid</p>
+			<p class="quote">"Why, anybody can have a brain. That's a very mediocre commodity. Every pusillanimous creature that crawls on the Earth or slinks through slimy seas has a brain.”<br />-The Wizard of Oz</p>
+		</div>
+
+		<!-- Anatine -->
+		<div id="anatine-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/anatine.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>an</b>-<i>uh</i>-tahyn /</li>
+				<li id="anatine-wrap" class="sound"><img id="anatine-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Resembling a duck</p>
+			<p class="quote">"The portrait painter made the subject look anatine by giving him a bill and feathers.”</p>
+		</div>
+
+		<!-- Hoyden -->
+		<div id="hoyden-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/hoyden.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>hoid</b>-n /</li>
+				<li id="hoyden-wrap" class="sound"><img id="hoyden-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A boisterous, bold, and carefree girl; a tomboy</p>
+			<p class="quote">"Annette, the hoyden down the street, liked to throw mud at the neighbor’s cows.”</p>
+		</div>
+
+		<!-- Bovarism -->
+		<div id="bovarism-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/bovarism.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>boh</b>-v<i>uh</i>-riz-<i>uh</i> m /</li>
+				<li id="bovarism-wrap" class="sound"><img id="bovarism-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">An exaggerated, especially glamorized, estimate of oneself; conceit</p>
+			<p class="quote">"The bovarism of most Hollywood celebrities is appalling.”</p>
+		</div>
+
+		<!-- Pabulum -->
+		<div id="pabulum-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+		<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/pabulum.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>pab</b>-y<i>uh</i>-l<i>uh</i> m /</li>
+				<li id="pabulum-wrap" class="sound"><img id="pabulum-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Material for intellectual nourishment</p>
+			<p class="quote">"His library filled with pabulum was reserved for research only.”</p>
+		</div>
+
+		<!-- Tiffin -->
+		<div id="tiffin-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/tiffin.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">verb</li>
+				<li>/ <b>tif</b>-in /</li>
+				<li id="tiffin-wrap" class="sound"><img id="tiffin-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">To eat lunch</p>
+			<p class="quote">"The country club has reservations to tiffin at noon at the French restaurant.”</p>
+		</div>
+
+		<!-- Juvenescent -->
+		<div id="juvenescent-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/juvenescent.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ joo-v<i>uh</i>-<b>nes</b>-<i>uh</i> nt /</li>
+				<li id="juvenescent-wrap" class="sound"><img id="juvenescent-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Being or becoming youthful; young</p>
+			<p class="quote">"The child’s juvenescent outlook on life was inspiring to the grumpy old man.”</p>
+		</div>
+
+		<!-- Mythomane -->
+		<div id="mythomane-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/mythomane.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>mith</b>-<i>uh</i>-meyn /</li>
+				<li id="mythomane-wrap" class="sound"><img id="mythomane-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A person with a strong or irresistible propensity for fantasizing, lying, or exaggerating</p>
+			<p class="quote">"Your son received detention because he is a disruptive mythomane.”</p>
+		</div>
+
+		<!-- Exiguous-->
+		<div id="exiguous-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/exiguous.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ ig-<b>zig</b>-yoo-<i>uh</i> s /</li>
+				<li id="exiguous-wrap" class="sound"><img id="exiguous-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Scanty; meager; small; slender</p>
+			<p class="quote">"Little Tommy had expected a much less exiguous amount of money from the tooth fairy.”</p>
+		</div>
+
+		<!-- Calvous -->
+		<div id="calvous-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/calvous.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>kal</b>-v<i>uh</i> s /</li>
+				<li id="calvous-wrap" class="sound"><img id="calvous-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Lacking all or most of the hair on the head; bald</p>
+			<p class="quote">"The calvous man wore hats in the summer to avoid terrible sunburn.”</p>
+		</div>
+
+		<!-- Flapdoodle -->
+		<div id="flapdoodle-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/flapdoodle.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>flap</b>-dood l /</li>
+				<li id="flapdoodle-wrap" class="sound"><img id="flapdoodle-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Nonsense; bosh</p>
+			<p class="quote">"Stop feeding me flapdoodle! I know what is going on!”</p>
+		</div>
+
+		<!-- Galoot -->
+		<div id="galoot-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/galoot.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>guh</b>-loot /</li>
+				<li id="galoot-wrap" class="sound"><img id="galoot-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">An awkward, eccentric, or foolish person</p>
+			<p class="quote">"Our congressman is a galoot who should have never been elected.”</p>
+		</div>
+
+		<!--Gloaming -->
+		<div id="gloaming-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/gloaming.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>gloh</b>-ming /</li>
+				<li id="gloaming-wrap" class="sound"><img id="gloaming-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Twilight; dusk</p>
+			<p class="quote">“The snow had begun in the gloaming, And busily all the night Had been heaping field and highway With a silence deep and white.”<br />–James Russell Lowell</p>
+		</div>
+
+		<!-- Interrobang -->
+		<div id="interrobang-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/interrobang.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ in-<b>ter</b>-<i>uh</i>-bang /</li>
+				<li id="interrobang-wrap" class="sound"><img id="interrobang-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A punctuation mark that combines the question mark and the exclamation point, indicating a mixture of query and interjection, as after a rhetorical question (?!)</p>
+			<p class="quote">“What do you mean I kept overusing the interrobang in my composition?!”</p>
+		</div>
+
+		<!-- Taradiddle -->
+		<div id="taradiddle-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/taradiddle.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ tar-<i>uh</i>-<b>did</b> l /</li>
+				<li id="taradiddle-wrap" class="sound"><img id="taradiddle-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A small lie; fib; pretentious nonsense</p>
+			<p class="quote">“I know taradiddle when I hear it.”</p>
+		</div>
+
+		<!-- Camelopard -->
+		<div id="camelopard-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/camelopard.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ k<i>uh</i>-<b>mel</b>-<i>uh</i>-pahrd /</li>
+				<li id="camelopard-wrap" class="sound"><img id="camelopard-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A giraffe</p>
+			<p class="quote">“I witnessed a lion attack a wounded camelopard on my African safari.”</p>
+		</div>
+
+		<!-- Klatsch -->
+		<div id="klatsch-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/klatsch.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ klahch /</li>
+				<li id="klatsch-wrap" class="sound"><img id="klatsch-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A casual gathering of people, especially for refreshments and informal conversation</p>
+			<p class="quote">“You are invited to a small klatsch at my home tomorrow afternoon.”</p>
+		</div>
+
+		<!-- Equanimity -->
+		<div id="equanimity-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/equanimity.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ ee-kw<i>uh</i>-<b>nim</b>-i-tee /</li>
+				<li id="equanimity-wrap" class="sound"><img id="equanimity-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Mental or emotional stability or composure, especially under tension or strain; calmness; equilibrium</p>
+			<p class="quote">“Few people are capable of expressing with equanimity opinions which differ from the prejudices of their social environment.”<br />–Albert Einstein</p>
+		</div>
+
+		<!-- Brusque -->
+		<div id="brusque-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/brusque.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ bruhsk /</li>
+				<li id="brusque-wrap" class="sound"><img id="brusque-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Abrupt in manner; blunt; rough</p>
+			<p class="quote">“The brusque ending to the story was disappointing.”</p>
+		</div>
+
+		<!-- Desiderium -->
+		<div id="desiderium-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/desiderium.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ des-i-<b>deer</b>-ee-<i>uh</i> m /</li>
+				<li id="desiderium-wrap" class="sound"><img id="desiderium-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">An ardent longing, as for something lost</p>
+			<p class="quote">“His driving desiderium to someday open his own ice cream parlor was ultimately detrimental to his finances.”</p>
+		</div>
+
+		<!-- Serein -->
+		<div id="serein-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/serein.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ suh-<b>ran</b> /</li>
+				<li id="serein-wrap" class="sound"><img id="serein-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Fine rain falling after sunset from a sky in which no clouds are visible</p>
+			<p class="quote">“Matilda let the fine serein mask her tears as Jacques walked away.”</p>
+		</div>
+
+		<!-- Crinose -->
+		<div id="crinose-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/crinose.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>krahy</b>-nohs /</li>
+				<li id="crinose-wrap" class="sound"><img id="crinose-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Hairy</p>
+			<p class="quote">“His crinose chest proved rather distracting in the body-building competition.”</p>
+		</div>
+
+		<!-- Sweven -->
+		<div id="sweven-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/sweven.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>swev</b>-<i>uh</i> n /</li>
+				<li id="sweven-wrap" class="sound"><img id="sweven-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A vision; dream</p>
+			<p class="quote">“I am so full of joy and of solace That I defy both sweven and dream.”<br />–Geoffrey Chaucer</p>
+		</div>
+
+		<!-- Osculate -->
+		<div id="osculate-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/osculate.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">verb</li>
+				<li>/ <b>os</b>-ky<i>uh</i>-leyt /</li>
+				<li id="osculate-wrap" class="sound"><img id="osculate-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">To come into close contact or union; to kiss</p>
+			<p class="quote">“The newlyweds were provoked to osculate at the sound of antique silverware clinking against fine china.”</p>
+		</div>
+
+		<!-- Estivate -->
+		<div id="estivate-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/estivate.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">verb</li>
+				<li>/ <b>es</b>-t<i>uh</i>-veyt /</li>
+				<li id="estivate-wrap" class="sound"><img id="estivate-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">To spend the summer, as at a specific place or in a certain activity</p>
+			<p class="quote">“The Philippes preferred to estivate at one of their seven summer homes during the season.”</p>
+		</div>
+
+		<!-- Gibbosity -->
+		<div id="gibbosity-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/gibbosity.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ gi-<b>bos</b>-i-tee /</li>
+				<li id="gibbosity-wrap" class="sound"><img id="gibbosity-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A protuberance or swelling</p>
+			<p class="quote">“Timothy’s mother was appalled to see the enormous gibbosity on her son’s head, which was caused by a rogue baseball.”</p>
+		</div>
+
+		<!-- Prate -->
+		<div id="prate-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/prate.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">verb</li>
+				<li>/ preyt /</li>
+				<li id="prate-wrap" class="sound"><img id="prate-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">To talk excessively and pointlessly; babble</p>
+			<p class="quote">“The stabbed man knows the steel; prate not to him that it is only a ticking feather.”<br />–Herman Melville</p>
+		</div>
+
+		<!-- Prevaricator -->
+		<div id="prevaricator-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/prevaricator.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ pri-<b>var</b>-i-key-ter /</li>
+				<li id="prevaricator-wrap" class="sound"><img id="prevaricator-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A person who speaks falsely; liar</p>
+			<p class="quote">“How could we acknowledge any merit in our most dangerous enemy: the past, gloomy prevaricator, execrable tutor?”<br />–Tommaso Marinetti</p>
+		</div>
+
+		<!-- Blithesome -->
+		<div id="blithesome-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/blithesome.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>blahyth</b>-s<i>uh</i> m /</li>
+				<li id="blithesome-wrap" class="sound"><img id="blithesome-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Lighthearted; merry; cheerful</p>
+			<p class="quote">“The depressed pessimist could not stand to be around the blithesome optimist.”</p>
+		</div>
+
+		<!-- Clement -->
+		<div id="clement-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/clement.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>klem</b>-<i>uh</i> nt /</li>
+				<li id="clement-wrap" class="sound"><img id="clement-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Mild or merciful in disposition or character; lenient; compassionate</p>
+			<p class="quote">“The piano teacher was surprisingly clement with Geoffrey when he played the wrong notes.”</p>
+		</div>
+
+		<!-- Tarantism -->
+		<div id="tarantism-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/tarantism.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>tar</b>-<i>uh</i> n-tiz-<i>uh</i> m /</li>
+				<li id="tarantism-wrap" class="sound"><img id="tarantism-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A mania characterized by an uncontrollable impulse to dance, especially as prevalent in southern Italy from the 15th to the 17th century, popularly attributed to the bite of the tarantula</p>
+			<p class="quote">“Overcome with an insatiable tarantism, Freddie danced the night away alone at the abandoned nightclub.”</p>
+		</div>
+
+		<!-- Malinger -->
+		<div id="malinger-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/malinger.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">verb</li>
+				<li>/ m<i>uh</i>-<b>ling</b>-ger /</li>
+				<li id="malinger-wrap" class="sound"><img id="malinger-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">To pretend illness, especially in order to shirk one's duty, avoid work, etc.</p>
+			<p class="quote">“Workers with a terrible tendency to malinger are often fired.”</p>
+		</div>
+
+		<!-- Boite -->
+		<div id="boîte-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/boite.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ bwaht /</li>
+				<li id="boite-wrap" class="sound"><img id="boite-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A nightclub; cabaret</p>
+			<p class="quote">“The rake was unsurprisingly arrested for debt after spending every night at the boîte.”</p>
+		</div>
+
+		<!-- Somnolent -->
+		<div id="somnolent-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/somnolent.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>som</b>-n<i>uh</i>-l<i>uh</i> nt /</li>
+				<li id="somnolent-wrap" class="sound"><img id="somnolent-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Sleepy; drowsy; tending to cause sleep</p>
+			<p class="quote">“It was hard not to nod off while listening to the dull, somnolent voice of the narrator.”</p>
+		</div>
+
+		<!-- Intractable -->
+		<div id="intractable-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/intractable.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ in-<b>trak</b>-t<i>uh</i>-b<i>uh</i> l /</li>
+				<li id="intractable-wrap" class="sound"><img id="intractable-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Not easily controlled or directed; not docile or manageable; stubborn; obstinate</p>
+			<p class="quote">“I remember when the Berlin Wall fell and suddenly intractable problems get solved.”<br />–Lucy Walker</p>
+		</div>
+
+		<!-- Apogee -->
+		<div id="apogee-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/apogee.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>ap</b>-<i>uh</i>-jee /</li>
+				<li id="apogee-wrap" class="sound"><img id="apogee-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">The highest or most distant point</p>
+			<p class="quote">“At last, they reached the apogee of the hill and were ready to slide back down on their toboggans.”</p>
+		</div>
+
+		<!-- Cynosure -->
+		<div id="cynosure-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/cynosure.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>sahy</b>-n<i>uh</i>-sh<i>oo</i> r /</li>
+				<li id="cynosure-wrap" class="sound"><img id="cynosure-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Something that strongly attracts attention by its brilliance, interest, etc.</p>
+			<p class="quote">“This lighthouse was the cynosure of all eyes.”<br />-Henry David Thoreau</p>
+		</div>
+
+		<!-- Sobriquet -->
+		<div id="sobriquet-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/sobriquet.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>soh</b>-br<i>uh</i>-key /</li>
+				<li id="sobriquet-wrap" class="sound"><img id="sobriquet-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A nickname</p>
+			<p class="quote">“James preferred to go by the sobriquet of Lil’ Jimmy when he was with his school friends.”</p>
+		</div>
+
+		<!-- Antediluvian -->
+		<div id="antediluvian-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/antediluvian.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ an-tee-di-<b>loo</b>-vee-<i>uh</i> n /</li>
+				<li id="antediluvian-wrap" class="sound"><img id="antediluvian-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Very old, old-fashioned, or out of date; antiquated; primitive</p>
+			<p class="quote">“Heather inherited her grandmother’s antediluvian jewelry chest that had been passed down through six generations.”</p>
+		</div>
+
+		<!-- Parvenu -->
+		<div id="parvenu-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/parvenu.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>pahr</b>-v<i>uh</i>-noo /</li>
+				<li id="parvenu-wrap" class="sound"><img id="parvenu-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A person who has recently or suddenly acquired wealth, importance, or position, but has not yet developed the conventionally appropriate manners, dress, or surroundings</p>
+			<p class="quote">“Look at that parvenu. It’s obvious she has no idea how to conduct herself at a governor’s ball."</p>
+		</div>
+
+		<!-- Quotidian -->
+		<div id="quotidian-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/quotidian.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ kwoh-<b>tid</b>-ee-<i>uh</i> n /</li>
+				<li id="quotidian-wrap" class="sound"><img id="quotidian-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Daily; usual or customary; everyday</p>
+			<p class="quote">“Spirituality now wanders from sex to drugs to art to revolution to violence—whatever seems to promise deliverance from the quotidian.”<br />–Mason Cooley</p>
+		</div>
+
+		<!-- Maudlin -->
+		<div id="maudlin-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/maudlin.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>mawd</b>-lin /</li>
+				<li id="maudlin-wrap" class="sound"><img id="maudlin-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Tearfully or weakly emotional; foolishly sentimental</p>
+			<p class="quote">“It is a maudlin and indecent verity that comes out through the strength of wine.”<br />–Joseph Conrad</p>
+		</div>
+
+		<!-- Moiety -->
+		<div id="moiety-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/moiety.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>moi</b>-i-tee /</li>
+				<li id="moiety-wrap" class="sound"><img id="moiety-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A half</p>
+			<p class="quote">“I would only like a moiety of the last tea biscuit.”</p>
+		</div>
+
+		<!-- Felicitous -->
+		<div id="felicitous-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/felicitous.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ fi-<b>lis</b>-i-t<i>uh</i> s /</li>
+				<li id="felicitous-wrap" class="sound"><img id="felicitous-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Well-suited for the occasion, as an action, manner, or expression; apt; appropriate</p>
+			<p class="quote">“A true poem is distinguished not so much by a felicitous expression, or any thought it suggests, as by the atmosphere which surrounds it.”<br />–Henry David Thoreau</p>
+		</div>
+
+		<!-- Nugatory -->
+		<div id="nugatory-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/nugatory.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ <b>noo</b>-g<i>uh</i>-tawr-ee /</li>
+				<li id="nugatory-wrap" class="sound"><img id="nugatory-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Of no real value; trifling; worthless</p>
+			<p class="quote">“Do you think I want this nugatory piece of junk?”</p>
+		</div>
+		
+		<!-- Nosegay -->
+		<div id="nosegay-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/nosegay.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>nohz</b>-gey /</li>
+				<li id="nosegay-wrap" class="sound"><img id="nosegay-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A small bunch of flowers; bouquet</p>
+			<p class="quote">“This man needs to be buried. And soon. He's not turning into any nosegay.”<br />-"Magnificent Seven"</p>
+		</div>
+
+		<!-- Quagmire -->
+		<div id="quagmire-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/quagmire.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>kwag</b>-mahy<i>uh</i> r /</li>
+				<li id="quagmire-wrap" class="sound"><img id="quagmire-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">An area of miry or boggy ground whose surface yields under the tread; a bog</p>
+			<p class="quote">“My words in her mind: cold polished stones sinking through a quagmire.”<br />–James Joyce</p>
+		</div>
+
+		<!-- Magniloquent -->
+		<div id="magniloquent-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/magniloquent.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">adj.</li>
+				<li>/ mag-<b>nil</b>-<i>uh</i>-kw<i>uh</i> nt /</li>
+				<li id="magniloquent-wrap" class="sound"><img id="magniloquent-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Speaking or expressed in a lofty or grandiose style; pompous; bombastic; boastful</p>
+			<p class="quote">“Though he speaks with a magniloquent tongue, his poor education is nothing to boast about.”</p>
+		</div>
+
+		<!-- Menagerie -->
+		<div id="menagerie-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/menagerie.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ muh-<b>naj</b>-<i>uh</i>-ree /</li>
+				<li id="menagerie-wrap" class="sound"><img id="menagerie-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A collection of wild or unusual animals, especially for exhibition; an unusual and varied group of people</p>
+			<p class="quote">“This universal exhibition in Canada of the tools and sinews of war reminded me of the keeper of a menagerie showing his animals' claws.”<br />–Henry David Thoreau</p>
+		</div>
+
+		<!-- Ennui -->
+		<div id="ennui-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/ennui.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ ahn-<b>wee</b> /</li>
+				<li id="ennui-wrap" class="sound"><img id="ennui-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A feeling of utter weariness and discontent resulting from satiety or lack of interest; boredom</p>
+			<p class="quote">“Ennui is the echo in us of time tearing itself apart.”<br />–Emile M. Cioran</p>
+		</div>
+
+		<!-- Sybarite -->
+		<div id="sybarite-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/sybarite.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ <b>sib</b>-<i>uh</i>-rahyt /</li>
+				<li id="sybarite-wrap" class="sound"><img id="sybarite-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">A person devoted to luxury and pleasure</p>
+			<p class="quote">“A typical Hollywood sybarite might own several houses and a yacht.”</p>
+		</div>
+
+		<!-- Diablerie -->
+		<div id="diablerie-def" class="pop-up">
+			<!-- flourishes in the corners -->
+			<img class="top-left" src="images/top-left.jpg">
+			<img class="bottom-left" src="images/bottom-left.jpg">
+			<img class="bottom-right" src="images/bottom-right.jpg">
+			<!-- start word information -->
+			<h1><img class="h1" src="images/words-h1/diablerie.jpg"></h1>
+			<ul class="word-props">
+				<li class="pos-inside">noun</li>
+				<li>/ dee-<b>ah</b>-bl<i>uh</i>-ree /</li>
+				<li id="diablerie-wrap" class="sound"><img id="diablerie-sound" src="images/sound.jpg"></li>
+			</ul>
+			<p class="def">Diabolic magic or art; sorcery; witchcraft; reckless mischief</p>
+			<p class="quote">“The creepy old woman nextdoor has been accused of diablerie so many times that most people don’t go anywhere near her house.”</p>
+		</div>
+
+
+<!-- ************* Word List ************** -->
+		
+		<div id="mix" class="container">
+			<ul id="sort-list">
+				<div class="mix category-3" data-myorder="76"><li class="word-list adj" id="tendentious-word">Tendentious</li></div>
+				<div class="mix category-3" data-myorder="17"><li class="word-list adj" id="aureate-word">Aureate</li></div>
+				<div class="mix category-1" data-myorder="31"><li class="word-list noun" id="encomium-word">Encomium</li></div>
+				<div class="mix category-1" data-myorder="69"><li class="word-list noun" id="haberdasher-word">Haberdasher</li></div>
+				<div class="mix category-1" data-myorder="7"><li class="word-list noun" id="aubade-word">Aubade</li></div>
+				<div class="mix category-3" data-myorder="75"><li class="word-list adj" id="scintillant-word">Scintillant</li></div>
+				<div class="mix category-1" data-myorder="84"><li class="word-list noun" id="schadenfreude-word">Schadenfreude</li></div>
+				<div class="mix category-1" data-myorder="52"><li class="word-list noun" id="soubrette-word">Soubrette</li></div>
+				<div class="mix category-3" data-myorder="82"><li class="word-list adj" id="autochthonous-word">Autochthonous</li></div>
+				<div class="mix category-3" data-myorder="78"><li class="word-list adj" id="cymotrichous-word">Cymotrichous</li></div>
+				<div class="mix category-1" data-myorder="73"><li class="word-list noun" id="lethologica-word">Lethologica</li></div>
+				<div class="mix category-3" data-myorder="57"><li class="word-list adj" id="chimerical-word">Chimerical</li></div>
+				<div class="mix category-3" data-myorder="74"><li class="word-list adj" id="punctilious-word">Punctilious</li></div>
+				<div class="mix category-3" data-myorder="86"><li class="word-list adj" id="pulchritudinous-word">Pulchritudinous</li></div>
+				<div class="mix category-3" data-myorder="63"><li class="word-list adj" id="loquacious-word">Loquacious</li></div>
+				<div class="mix category-2" data-myorder="15"><li class="word-list verb" id="winnow-word">Winnow</li></div>
+				<div class="mix category-1" data-myorder="65"><li class="word-list noun" id="succorance-word">Succorance</li></div>
+				<div class="mix category-3" data-myorder="67"><li class="word-list adj" id="tenebrific-word">Tenebrific</li></div>
+				<div class="mix category-2" data-myorder="59"><li class="word-list verb" id="epistolize-word">Epistolize</li></div>
+				<div class="mix category-3" data-myorder="44"><li class="word-list adj" id="commensal-word">Commensal</li></div>
+				<div class="mix category-1" data-myorder="81"><li class="word-list noun" id="sternutation-word">Sternutation</li></div>
+				<div class="mix category-3" data-myorder="28"><li class="word-list adj" id="skookum-word">Skookum</li></div>
+				<div class="mix category-1" data-myorder="27"><li class="word-list noun" id="pigsney-word">Pigsney</li></div>
+				<div class="mix category-3" data-myorder="2"><li class="word-list adj" id="dowie-word">Dowie</li></div>
+				<div class="mix category-1" data-myorder="5"><li class="word-list noun" id="stour-word">Stour</li></div>
+				<div class="mix category-1" data-myorder="42"><li class="word-list noun" id="sodality-word">Sodality</li></div>
+				<div class="mix category-1" data-myorder="85"><li class="word-list noun" id="verbigeration-word">Verbigeration</li></div>
+				<div class="mix category-3" data-myorder="54"><li class="word-list adj" id="thalassic-word">Thalassic</li></div>
+				<div class="mix category-3" data-myorder="64"><li class="word-list adj" id="subfuscous-word">Subfuscous</li></div>
+				<div class="mix category-1" data-myorder="37"><li class="word-list noun" id="larrikin-word">Larrikin</li></div>
+				<div class="mix category-3" data-myorder="34"><li class="word-list adj" id="frenetic-word">Frenetic</li></div>
+				<div class="mix category-1" data-myorder="11"><li class="word-list noun" id="oeuvre-word">Oeuvre</li></div>
+				<div class="mix category-1" data-myorder="68"><li class="word-list noun" id="crapehanger-word">Crapehanger</li></div>
+				<div class="mix category-1" data-myorder="36"><li class="word-list noun" id="horology-word">Horology</li></div>
+				<div class="mix category-3" data-myorder="83"><li class="word-list adj" id="pusillanimous-word">Pusillanimous</li></div>
+				<div class="mix category-3" data-myorder="16"><li class="word-list adj" id="anatine-word">Anatine</li></div>
+				<div class="mix category-1" data-myorder="9"><li class="word-list noun" id="hoyden-word">Hoyden</li></div>
+				<div class="mix category-1" data-myorder="29"><li class="word-list noun" id="bovarism-word">Bovarism</li></div>
+				<div class="mix category-1" data-myorder="25"><li class="word-list noun" id="pabulum-word">Pabulum</li></div>
+				<div class="mix category-2" data-myorder="14"><li class="word-list verb" id="tiffin-word">Tiffin</li></div>
+				<div class="mix category-3" data-myorder="72"><li class="word-list adj" id="juvenescent-word">Juvenescent</li></div>
+				<div class="mix category-1" data-myorder="48"><li class="word-list noun" id="mythomane-word">Mythomane</li></div>
+				<div class="mix category-3" data-myorder="33"><li class="word-list adj" id="exiguous-word">Exiguous</li></div>
+				<div class="mix category-3" data-myorder="19"><li class="word-list adj" id="calvous-word">Calvous</li></div>
+				<div class="mix category-1" data-myorder="62"><li class="word-list noun" id="flapdoodle-word">Flapdoodle</li></div>
+				<div class="mix category-1" data-myorder="8"><li class="word-list noun" id="galoot-word">Galoot</li></div>
+				<div class="mix category-1" data-myorder="35"><li class="word-list noun" id="gloaming-word">Gloaming</li></div>
+				<div class="mix category-1" data-myorder="70"><li class="word-list noun" id="interrobang-word">Interrobang</li></div>
+				<div class="mix category-1" data-myorder="66"><li class="word-list noun" id="taradiddle-word">Taradiddle</li></div>
+				<div class="mix category-1" data-myorder="56"><li class="word-list noun" id="camelopard-word">Camelopard</li></div>
+				<div class="mix category-1" data-myorder="22"><li class="word-list noun" id="klatsch-word">Klatsch</li></div>
+				<div class="mix category-1" data-myorder="60"><li class="word-list noun" id="equanimity-word">Equanimity</li></div>
+				<div class="mix category-3" data-myorder="18"><li class="word-list adj" id="brusque-word">Brusque</li></div>
+				<div class="mix category-1" data-myorder="58"><li class="word-list noun" id="desiderium-word">Desiderium</li></div>
+				<div class="mix category-1" data-myorder="12"><li class="word-list noun" id="serein-word">Serein</li></div>
+				<div class="mix category-3" data-myorder="21"><li class="word-list adj" id="crinose-word">Crinose</li></div>
+				<div class="mix category-1" data-myorder="13"><li class="word-list noun" id="sweven-word">Sweven</li></div>
+				<div class="mix category-2" data-myorder="40"><li class="word-list verb" id="osculate-word">Osculate</li></div>
+				<div class="mix category-2" data-myorder="32"><li class="word-list verb" id="estivate-word">Estivate</li></div>
+				<div class="mix category-1" data-myorder="46"><li class="word-list noun" id="gibbosity-word">Gibbosity</li></div>
+				<div class="mix category-2" data-myorder="4"><li class="word-list verb" id="prate-word">Prate</li></div>
+				<div class="mix category-1" data-myorder="80"><li class="word-list noun" id="prevaricator-word">Prevaricator</li></div>
+				<div class="mix category-3" data-myorder="55"><li class="word-list adj" id="blithesome-word">Blithesome</li></div>
+				<div class="mix category-3" data-myorder="20"><li class="word-list adj" id="clement-word">Clement</li></div>
+				<div class="mix category-1" data-myorder="53"><li class="word-list noun" id="tarantism-word">Tarantism</li></div>
+				<div class="mix category-2" data-myorder="38"><li class="word-list verb" id="malinger-word">Malinger</li></div>
+				<div class="mix category-1" data-myorder="1"><li class="word-list noun" id="boîte-word">Boîte</li></div>
+				<div class="mix category-3" data-myorder="51"><li class="word-list adj" id="somnolent-word">Somnolent</li></div>
+				<div class="mix category-3" data-myorder="71"><li class="word-list adj" id="intractable-word">Intractable</li></div>
+				<div class="mix category-1" data-myorder="6"><li class="word-list noun" id="apogee-word">Apogee</li></div>
+				<div class="mix category-1" data-myorder="30"><li class="word-list noun" id="cynosure-word">Cynosure</li></div>
+				<div class="mix category-1" data-myorder="50"><li class="word-list noun" id="sobriquet-word">Sobriquet</li></div>
+				<div class="mix category-3" data-myorder="77"><li class="word-list adj" id="antediluvian-word">Antediluvian</li></div>
+				<div class="mix category-1" data-myorder="26"><li class="word-list noun" id="parvenu-word">Parvenu</li></div>
+				<div class="mix category-3" data-myorder="49"><li class="word-list adj" id="quotidian-word">Quotidian</li></div>
+				<div class="mix category-3" data-myorder="23"><li class="word-list adj" id="maudlin-word">Maudlin</li></div>
+				<div class="mix category-1" data-myorder="10"><li class="word-list noun" id="moiety-word">Moiety</li></div>
+				<div class="mix category-3" data-myorder="61"><li class="word-list adj" id="felicitous-word">Felicitous</li></div>
+				<div class="mix category-3" data-myorder="39"><li class="word-list adj" id="nugatory-word">Nugatory</li></div>
+				<div class="mix category-1" data-myorder="24"><li class="word-list noun" id="nosegay-word">Nosegay</li></div>
+				<div class="mix category-1" data-myorder="41"><li class="word-list noun" id="quagmire-word">Quagmire</li></div>
+				<div class="mix category-3" data-myorder="79"><li class="word-list adj" id="magniloquent-word">Magniloquent</li></div>
+				<div class="mix category-1" data-myorder="47"><li class="word-list noun" id="menagerie-word">Menagerie</li></div>
+				<div class="mix category-1" data-myorder="3"><li class="word-list noun" id="ennui-word">Ennui</li></div>
+				<div class="mix category-1" data-myorder="43"><li class="word-list noun" id="sybarite-word">Sybarite</li></div>
+				<div class="mix category-1" data-myorder="45"><li class="word-list noun" id="diablerie-word">Diablerie</li></div>
+			</ul>
+		</div>
+	
+		</div>
+	</body>
+
+</html>
